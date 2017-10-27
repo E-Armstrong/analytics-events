@@ -47,10 +47,9 @@ $(document).ready(function(){
     var linkWasClicked
     $('#funny-link').on('click', function () {
         linkWasClicked = `User clicked on 'This is Funny' link to leave page.`
-            
+    })
 
-        }
-        console.log(linkWasClicked);
-        $('#more-kitties-link').on('click', function () {
-        
+    $('#more-kitties-link').on('click', function () {
+        linkWasClicked = `User clicked on 'How do I find more crazy kitties?' link to leave page.`
+    })
 })
